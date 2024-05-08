@@ -1,0 +1,41 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('Fondo.jpg');
+    background-repeat: repeat; /* Repetir la imagen en ambas direcciones */
+    background-size: 300px 300px; /* Tamaño de la imagen de fondo */
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    border-radius: 15px;
+    background-color: #900404;
+    color: #ffffff;
+}
+
+div{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+img{
+    transition: filter 0.5s ease, transform 0.9s ease;
+    filter: grayscale(100%);
+    height: 300px;
+    padding: 20px;
+    background-color: transparent;
+
+}
+
+img:hover{
+    scale: 1.1;
+    filter: grayscale(0%);
+}
+
+
+.oculto {
+    display: none;
+}
